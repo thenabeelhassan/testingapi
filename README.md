@@ -1,8 +1,8 @@
 # TESTING API
 
 - sudo apt update
-- sudo apt install nodejs wget
-- wget https://github.com/thenabeelhassan/testingapi
+- sudo apt install nodejs wget unzip
+- wget https://github.com/thenabeelhassan/testingapi/archive/refs/heads/main.zip
 - npm install -g nodemon
-- npm i express
+- npm i
 - nodemon

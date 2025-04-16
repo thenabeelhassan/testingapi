@@ -1,8 +1,11 @@
 const express = require("express");
+const cors = require("cors")
 const os = require("os");
 
 const app = express();
 const port = 7000;
+
+app.use(cors())
 
 app.get("/", (req, res) => {
   const systemData = {
